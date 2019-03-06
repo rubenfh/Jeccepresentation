@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NeuroEvolution : Flappy Bird</title>
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<canvas id="flappy" width="500" height="512"></canvas> <br/>
+	<button onclick="speed(60)">x1</button> 
+	<button onclick="speed(120)">x2</button> 
+	<button onclick="speed(180)">x3</button> 
+	<button onclick="speed(300)">x5</button> 
+	<button onclick="speed(0)">MAX</button> 
+	<br/>
+	<p>Voici un projet sur le jeu flappy bird que j'ai reproduit dans l'objectif de comprendre le fonctionnement d'un neural network, plus précisément pour comprendre la spécificitée des fonctions d'activations dans le role des NT liés au deep learning.
+	J'ai pu grace à une fonction sygmoide un une population prenant des valeurs aléatoires en entrée(x) comprendre comment réaliser un algorythme de machine learning.</p>
+	<script src = "Neuroevolution.js"></script>
+	<script src = "game.js"></script>
+</body>
+</html>
